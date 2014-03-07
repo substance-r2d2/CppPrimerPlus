@@ -21,6 +21,7 @@ int main()
   cout << "Enter diameter of the pizza: ";
   cin >> hut->diameter;
   cout << "Enter company name: " << endl;
+  cin.get();
   getline(cin, hut->companyName);
   cout << "Enter weight of the pizza: ";
   cin >> hut->weight;
